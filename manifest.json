@@ -1,0 +1,20 @@
+{
+	"project": {
+
+		"name": "diffusion",
+
+		"remote": {
+			"name": "github",
+			"fetch": "ssh://git@github.com"
+		},
+
+		"repo": {
+			"name": "Applications",
+			"remote": "github",
+			"address": "autographer/DiffusionEmbeddedSoftwareApp.git",
+			"branch": "master",
+			"commit": "head",
+			"path": "diffusion/applications.git"
+		}
+	}
+}
