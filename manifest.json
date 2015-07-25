@@ -15,6 +15,51 @@
 			"branch": "master",
 			"commit": "head",
 			"path": "diffusion/applications.git"
+		},
+
+		"repo": {
+			"name": "RootFS",
+			"remote": "github",
+			"address": "autographer/DiffusionEmbeddedSoftwareRootFS.git",
+			"branch": "master",
+			"commit": "head",
+			"path": "diffusion/rootfs.git"
+		},
+
+		"repo": {
+			"name": "Linux",
+			"remote": "github",
+			"address": "autographer/DiffusionEmbeddedSoftwareKernel.git",
+			"branch": "master",
+			"commit": "head",
+			"path": "diffusion/linux.git"
+		},
+
+		"repo": {
+			"name": "omapdrmtest",
+			"remote": "github",
+			"address": "autographer/DiffusionEmbeddedSoftware-omapdrmtest.git",
+			"branch": "master",
+			"commit": "head",
+			"path": "diffusion/omapdrmtest.git"
+		},
+
+		"repo": {
+			"name": "u-boot",
+			"remote": "github",
+			"address": "autographer/DiffusionEmbeddedSoftwareU-Boot.git",
+			"branch": "master",
+			"commit": "head",
+			"path": "diffusion/u-boot.git"
+		},
+
+		"repo": {
+			"name": "tools",
+			"remote": "github",
+			"address": "autographer/DiffusionEmbeddedSoftwareTools.git",
+			"branch": "master",
+			"commit": "head",
+			"path": "diffusion/tools.git"
 		}
 	}
 }
