@@ -1,65 +1,119 @@
 {
-	"project": {
+	"projects": [
 
-		"name": "diffusion",
+		{
+			"name": "diffusion",
 
-		"remote": {
-			"name": "github",
-			"fetch": "ssh://git@github.com"
+			"remotes": [
+				{
+					"name": "github",
+					"fetch": "ssh://git@github.com/autographer"
+				}
+			],
+
+			"repos": [ 
+				{
+					"name": "Applications",
+					"remote": "github",
+					"address": "DiffusionEmbeddedSoftwareApp.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "diffusion/applications.git"
+				},
+
+				{
+					"name": "RootFS",
+					"remote": "github",
+					"address": "DiffusionEmbeddedSoftwareRootFS.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "diffusion/rootfs.git"
+				},
+
+				{
+					"name": "Linux",
+					"remote": "github",
+					"address": "DiffusionEmbeddedSoftwareKernel.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "diffusion/linux.git"
+				},
+
+				{
+					"name": "omapdrmtest",
+					"remote": "github",
+					"address": "DiffusionEmbeddedSoftware-omapdrmtest.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "diffusion/omapdrmtest.git"
+				},
+
+				{
+					"name": "u-boot",
+					"remote": "github",
+					"address": "DiffusionEmbeddedSoftwareU-Boot.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "diffusion/u-boot.git"
+				},
+
+				{
+					"name": "tools",
+					"remote": "github",
+					"address": "DiffusionEmbeddedSoftwareTools.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "diffusion/tools.git"
+				}
+			]
 		},
 
-		"repo": {
-			"name": "Applications",
-			"remote": "github",
-			"address": "autographer/DiffusionEmbeddedSoftwareApp.git",
-			"branch": "master",
-			"commit": "head",
-			"path": "diffusion/applications.git"
-		},
+		{
 
-		"repo": {
-			"name": "RootFS",
-			"remote": "github",
-			"address": "autographer/DiffusionEmbeddedSoftwareRootFS.git",
-			"branch": "master",
-			"commit": "head",
-			"path": "diffusion/rootfs.git"
-		},
+			"name": "openembedded",
 
-		"repo": {
-			"name": "Linux",
-			"remote": "github",
-			"address": "autographer/DiffusionEmbeddedSoftwareKernel.git",
-			"branch": "master",
-			"commit": "head",
-			"path": "diffusion/linux.git"
-		},
+			"remotes": [
+				{
+					"name": "github",
+					"fetch": "ssh://git@github.com"
+				}
+			],
 
-		"repo": {
-			"name": "omapdrmtest",
-			"remote": "github",
-			"address": "autographer/DiffusionEmbeddedSoftware-omapdrmtest.git",
-			"branch": "master",
-			"commit": "head",
-			"path": "diffusion/omapdrmtest.git"
-		},
+			"repos": [
+				{
+					"name": "OpenEmbedded Core",
+					"remote": "github",
+					"address": "openembedded/openembedded-core.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "openembedded/oe-core.git"
+				},
 
-		"repo": {
-			"name": "u-boot",
-			"remote": "github",
-			"address": "autographer/DiffusionEmbeddedSoftwareU-Boot.git",
-			"branch": "master",
-			"commit": "head",
-			"path": "diffusion/u-boot.git"
-		},
-
-		"repo": {
-			"name": "tools",
-			"remote": "github",
-			"address": "autographer/DiffusionEmbeddedSoftwareTools.git",
-			"branch": "master",
-			"commit": "head",
-			"path": "diffusion/tools.git"
+					{
+					"name": "Bitbake",
+					"remote": "github",
+					"address": "openembedded/bitbake.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "openembedded/oe-core.git/bitbake"
+				},
+				{
+					"name": "Meta OpenEmbedded",
+					"remote": "github",
+					"address": "openembedded/meta-openembedded.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "openembedded/oe-core.git/meta-openembedded.git"
+				},
+				{
+					"name": "Meta Diffusion",
+					"remote": "github",
+					"address": "autographer/DiffusionEmbeddedSoftware_meta-diffusion.git",
+					"branch": "master",
+					"commit": "head",
+					"path": "openembedded/oe-core.git/meta-diffusion.git"
+				}
+			]
 		}
-	}
+	]
 }
