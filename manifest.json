@@ -11,12 +11,12 @@
 				}
 			],
 
-			"repos": [ 
+			"repos": [
 				{
 					"name": "Applications",
 					"remote": "github",
 					"address": "DiffusionEmbeddedSoftwareApp.git",
-					"branch": "master",
+					"branch": "diffusion-oe",
 					"commit": "head",
 					"path": "diffusion/applications.git"
 				},
@@ -34,7 +34,7 @@
 					"name": "Linux",
 					"remote": "github",
 					"address": "DiffusionEmbeddedSoftwareKernel.git",
-					"branch": "master",
+					"branch": "diffusion",
 					"commit": "head",
 					"path": "diffusion/linux.git"
 				},
@@ -43,7 +43,7 @@
 					"name": "omapdrmtest",
 					"remote": "github",
 					"address": "DiffusionEmbeddedSoftware-omapdrmtest.git",
-					"branch": "master",
+					"branch": "openembedded",
 					"commit": "head",
 					"path": "diffusion/omapdrmtest.git"
 				},
@@ -52,7 +52,7 @@
 					"name": "u-boot",
 					"remote": "github",
 					"address": "DiffusionEmbeddedSoftwareU-Boot.git",
-					"branch": "master",
+					"branch": "diffusion",
 					"commit": "head",
 					"path": "diffusion/u-boot.git"
 				},
@@ -61,7 +61,7 @@
 					"name": "tools",
 					"remote": "github",
 					"address": "DiffusionEmbeddedSoftwareTools.git",
-					"branch": "master",
+					"branch": "openembedded",
 					"commit": "head",
 					"path": "diffusion/tools.git"
 				}
