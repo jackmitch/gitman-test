@@ -114,6 +114,37 @@
 					"path": "openembedded/oe-core.git/meta-diffusion.git"
 				}
 			]
+		},
+
+		{
+
+			"name": "wilink",
+
+			"remotes": [
+				{
+					"name": "ti",
+					"fetch": "git://git.ti.com"
+				}
+			],
+
+			"repos": [
+				{
+					"name": "wl18xxx",
+					"remote": "ti",
+					"address": "wilink8-wlan/wl18xx.git",
+					"branch": "ap_p2p",
+					"commit": "cb51164c672b1ecadef339b9f9b39e29ab706723",
+					"path": "diffusion/wl18xx.git"
+				},
+				{
+					"name": "wireless-backports",
+					"remote": "ti",
+					"address": "wilink8-wlan/backports.git",
+					"branch": "ap_dfs_mbss_all",
+					"commit": "0d46f43a2f3ccdd53de19eee5b9c674bf8ef09a2",
+					"path": "diffusion/wireless-backports.git"
+				}
+			]
 		}
 	]
 }
